@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'BebasNeue';
+	src: url(../fonts/BebasNeue.otf);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face { 
+	font-family: 'HarmoniaSansProCyr-Regular';
+	src: url(../fonts/HarmoniaSansProCyr-Regular.otf);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face { 
+	font-family: 'HarmoniaSansProCyr-Bold';
+	src: url(../fonts/HarmoniaSansProCyr-Bold.otf);
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face { 
+	font-family: 'HarmoniaSansProCyr-Italic';
+	src: url(../fonts/HarmoniaSansProCyr-Italic.otf);
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+html, body { height: 100%; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background-color: #000; background: url('../img/calculator-bg.png') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.center { margin: 0 auto; float: none!important; display: block; }
+p { display: block; font-size: 13px; font-weight: 400; letter-spacing: normal; line-height: 22px; margin: 0 0 10px; font-style: normal; white-space: normal; }
+.logo-name { display: block; font-size: 22px; font-weight: 700; text-decoration: none; color: #6c6c6c; }
+.m-t-md { margin-top: 20px; }
+.m-t-xs { margin-top: 10px; }
+.text-sm { font-size: 12px; }
+.no-s { margin: 0!important; padding: 0!important; }
+
+/* -------------------- */
+/* 	Login Page 			*/
+/* -------------------- */
+.page-login { color: #fff; min-height: 100vh; }
+.page-login .main-wrapper { margin: 0; padding: 5%; }
+.page-login a { font-family: 'BebasNeue', arial, sans-serif; font-size: 48px; font-weight: 500; margin-bottom: 50px; color: #fff; }
+.page-login p { font-family: 'HarmoniaSansProCyr-Regular', arial, sans-serif; font-size: 16px; line-height: 2; -webkit-font-smoothing: antialiased; }
+.page-login .form-control { height: 45px; padding: 0px 10px; font-family: 'HarmoniaSansProCyr-Italic', arial, sans-serif; font-size: 23px; color: #fff; background-color: transparent; border: 1px solid #fff; -webkit-font-smoothing: antialiased; }
+.page-login .btn { margin-top: 50px; padding: 10px 50px; font-family: 'HarmoniaSansProCyr-Bold', arial, sans-serif; font-size: 23px; color: #000; background-color: #f7b813; border: 1px solid #f7b813; -webkit-font-smoothing: antialiased; }
+
+/* -------------------- */
+/* 	Calculator Page 	*/
+/* -------------------- */
+section.calculator { color: #fff; padding: 50px 0; }
+section.calculator .heading { margin-bottom: 50px; }
+section.calculator h1 { font-family: 'BebasNeue', arial, sans-serif; font-size: 48px; font-weight: 500; margin-bottom: 50px; }
+section.calculator p { font-family: 'HarmoniaSansProCyr-Regular', arial, sans-serif; font-size: 23px; line-height: 2; -webkit-font-smoothing: antialiased; }
+section.calculator form label { font-family: 'HarmoniaSansProCyr-Regular', arial, sans-serif; font-size: 23px; font-weight: 400; -webkit-font-smoothing: antialiased; }
+section.calculator .form-control { height: 45px; padding: 0px 10px; font-family: 'HarmoniaSansProCyr-Italic', arial, sans-serif; font-size: 23px; color: #fff; background-color: transparent; border: 1px solid #fff; -webkit-font-smoothing: antialiased; }
+section.calculator .input-group-addon { padding: 0px 10px; font-family: 'HarmoniaSansProCyr-Regular', arial, sans-serif; font-size: 23px; color: #fff; background-color: transparent; border: 1px solid #fff; -webkit-font-smoothing: antialiased; }
+section.calculator .btn { margin-top: 50px; padding: 10px 50px; font-family: 'HarmoniaSansProCyr-Bold', arial, sans-serif; font-size: 23px; color: #000; background-color: #f7b813; border: 1px solid #f7b813; -webkit-font-smoothing: antialiased; }
+section.calculator .alert-danger { color: #f7b813; background-color: transparent; border-color: #f7b813; }
+section.calculator select option { color: #000; }
+
+/* -------------------- */
+/* 	Results Page 		*/
+/* -------------------- */
+section.results { color: #fff; padding: 50px 0; }
+section.results .heading { margin-bottom: 50px; }
+section.results h1 { font-family: 'BebasNeue', arial, sans-serif; font-size: 48px; font-weight: 500; margin-bottom: 50px; }
+section.results h2 { font-family: 'BebasNeue', arial, sans-serif; font-size: 72px; font-weight: 500; margin-bottom: 50px; color: #f7b813; }
+section.results p { font-family: 'HarmoniaSansProCyr-Regular', arial, sans-serif; font-size: 23px; line-height: 2; -webkit-font-smoothing: antialiased; }
+section.results a { color: #f7b813; }
+
+/* -------------------- */
+/* 	404 Page 	 		*/
+/* -------------------- */
+section.four-o-four { height: 100vh; min-height: 900px; color: #fff; padding: 50px 0; background-color: #000; background: url('../img/calculator-bg.png') no-repeat center center fixed; background-size: cover; }
+section.four-o-four .heading { margin-bottom: 50px; }
+section.four-o-four h1 { font-family: 'BebasNeue', arial, sans-serif; font-size: 48px; font-weight: 500; margin-bottom: 50px; }
+section.four-o-four h2 { font-family: 'BebasNeue', arial, sans-serif; font-size: 72px; font-weight: 500; margin-bottom: 50px; color: #f7b813; }
+section.four-o-four p { font-family: 'HarmoniaSansProCyr-Regular', arial, sans-serif; font-size: 23px; line-height: 2; -webkit-font-smoothing: antialiased; }
+section.four-o-four a { color: #f7b813; }
+
+/* -------------------- */
+/* 	Dashboard Page 		*/
+/* -------------------- */
+.page-dashboard { height: 100%; background: #f9f9f9; }
+.page-dashboard .navbar-default { margin-bottom: 0; background: #fff; }
+.page-dashboard .page-breadcrumb { padding: 8px 20px; border-bottom: 1px solid #e9e9e9; background: #f5f5f5; }
+.page-dashboard .page-breadcrumb .breadcrumb { background: 0 0; padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0; }
+.page-dashboard .breadcrumb>li+li:before { padding: 0 5px; color: #ccc; content: "/\00a0"; }
+.page-dashboard .breadcrumb>li { display: inline-block; }
+.page-dashboard .page-breadcrumb ol.breadcrumb li a, .page-breadcrumb ol.breadcrumb li.active { font-size: 13px; color: #90999c; }
+.page-dashboard .page-title { padding: 15px 20px; border-bottom: 1px solid #e9e9e9; background: #f9f9f9; }
+.page-dashboard .page-title h3 { font-size: 24px; font-weight: 400; color: #74767d; padding: 0; margin: 0; }
+.page-dashboard .main-wrapper { padding-top: 20px; padding-bottom: 20px; background: #f9f9f9;  }
+.page-dashboard .panel { -webkit-box-shadow: 0 5px 5px -5px rgba(0,0,0,.1); -moz-box-shadow: 0 5px 5px -5px rgba(0,0,0,.1); box-shadow: 0 5px 5px -5px rgba(0,0,0,.1); border: 0!important; margin-bottom: 25px; border-radius: 0; }
+.page-dashboard .panel-white { background: #fff; border: 1px solid #e9e9e9!important; }
+.page-dashboard .panel .panel-heading { padding: 20px; overflow: hidden; border-top-left-radius: 0; border-top-right-radius: 0; border: 0!important; height: 55px; font-size: 14px; font-weight: 600; }
+.page-dashboard .panel .panel-heading .panel-title { font-size: 14px; float: left; margin: 0; padding: 0; font-weight: 600; }
+.page-dashboard .panel .panel-heading+.panel-body { padding: 0 20px 20px;}
+.page-dashboard .panel .panel-body { position: relative; padding: 20px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.page-dashboard .page-footer { background: #fff; width: 100%; display: block; position: absolute; bottom: 0; padding: 19px 25px; border-top: 1px solid #e9e9e9; }
+
+
+
